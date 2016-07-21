@@ -1,0 +1,17 @@
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\bin\x64\Debug\AcpiTool.exe.config
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\bin\x64\Debug\AcpiTool.exe
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\bin\x64\Debug\AcpiTool.pdb
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\bin\x64\Debug\AcpiLibrary.dll
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\obj\x64\Debug\MainWindow.baml
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\obj\x64\Debug\MethodMonitor.baml
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\obj\x64\Debug\MainWindow.g.cs
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\obj\x64\Debug\MethodMonitor.g.cs
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\obj\x64\Debug\App.g.cs
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\obj\x64\Debug\AcpiTool_MarkupCompile.cache
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\obj\x64\Debug\AcpiTool.g.resources
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\obj\x64\Debug\AcpiTool.Properties.Resources.resources
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\obj\x64\Debug\AcpiTool.csproj.GenerateResource.Cache
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\obj\x64\Debug\AcpiTool.exe
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\obj\x64\Debug\AcpiTool.pdb
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\obj\x64\Debug\AcpiTool.csprojResolveAssemblyReference.cache
+C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiTool\AcpiTool\bin\x64\Debug\AcpiLibrary.pdb

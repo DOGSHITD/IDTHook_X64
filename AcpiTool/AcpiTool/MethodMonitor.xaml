@@ -1,0 +1,49 @@
+﻿<Page x:Class="AcpiTool.MethodMonitor"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="MethodMonitor" MinWidth="360" MinHeight="250">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.618*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <ListBox x:Name="methodListBox" Grid.Column="0" HorizontalAlignment="Stretch"  Margin="5,2,5,2" VerticalAlignment="Stretch" 
+                            ScrollViewer.IsDeferredScrollingEnabled="True" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                            BorderBrush="LightBlue">
+                <ListBox.ItemTemplate>
+                    <DataTemplate >
+                        <ListBoxItem IsHitTestVisible="False" Height="20">
+                            <TextBlock Text="{Binding Path = MethodPath}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="12"/>
+                        </ListBoxItem>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <TextBox x:Name="textBoxMethodInformation" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,2,5,2" IsReadOnly="True" 
+                           ScrollViewer.CanContentScroll="True" ScrollViewer.IsDeferredScrollingEnabled="False" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Auto"
+                           Text="{Binding Path=SelectedValue.MethodInformation, ElementName=methodListBox}" BorderBrush="LightBlue" FontSize="12">
+            </TextBox>
+        </Grid>
+        <Grid Grid.Row="1" Margin="5,5,5,5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Width="70" HorizontalAlignment="Right" Margin="5,0,10,0" Content="Start" Click="MethodMonitorStart" x:Name="buttonStart"/>
+            <Button Grid.Column="1" Width="70" HorizontalAlignment="Right" Margin="5,0,5,0" Content="Stop" Click="MethodMonitorStart" x:Name="buttonStop" IsEnabled="False"/>
+            <Button Grid.Column="2" Width="70" HorizontalAlignment="Right" Margin="5,0,5,0" Content="Save" Click="MethodMonitorStart"/>
+            <Button Grid.Column="3" Width="70" HorizontalAlignment="Right" Margin="5,0,5,0" Content="Clear" Click="MethodMonitorStart"/>
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,88 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly AcpiLibrary, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class AcpiLibrary.METHOD_ARGUMENT: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    AcpiLibrary.ARGUMENT_TYPE Type : Public
+    System.String Argument : Public
+Class AcpiLibrary.MethodNode: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String methodName : Public
+    Int32 methodIndex IsLong : Public
+    Int32 next IsLong : Public
+    Int32 parent IsLong : Public
+    Int32 child IsLong : Public
+Class AcpiLibrary.DeviceNode: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    UInt32 index IsLong : Public
+    System.String devicename : Public
+Class AcpiLibrary.MethodEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String methodPath : Public
+    System.Collections.Generic.Dictionary`2[System.String,System.String] methodInformation : Public
+Class AcpiLibrary.MethodEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, MethodEventArgs): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Object, MethodEventArgs, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class AcpiLibrary.NotifyEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    UInt32 deviceIndex IsLong : Public
+    UInt32 notifyInformation IsLong : Public
+Class AcpiLibrary.NotifyEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, NotifyEventArgs): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Object, NotifyEventArgs, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class AcpiLibrary.AcpiFilterControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Events:
+    AcpiLibrary.NotifyEventHandler Notify: SpecialName
+    AcpiLibrary.MethodEventHandler Method: SpecialName
+  Methods:
+    Initialize(): PrivateScope, Public, HideBySig
+    CallMethod(UInt32 IsLong, String, METHOD_ARGUMENT[], METHOD_ARGUMENT[]&): PrivateScope, Public, HideBySig
+    GetMethodTree(MethodNode[]&): PrivateScope, Public, HideBySig
+    GetMethodIndex(String): PrivateScope, Public, HideBySig
+    GetRootIndex(): PrivateScope, Public, HideBySig
+    GetDeviceList(DeviceNode[]&): PrivateScope, Public, HideBySig
+    StartMethodMonitor(): PrivateScope, Public, HideBySig
+    StartNotifyMonitor(): PrivateScope, Public, HideBySig
+    StopNotifyMonitor(): PrivateScope, Public, HideBySig
+    StopMethodMonitor(): PrivateScope, Public, HideBySig
+    add_Method(MethodEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Method(MethodEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_Notify(NotifyEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Notify(NotifyEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    setDeviceChecked(UInt32 IsLong, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct AcpiLibrary.ARGUMENT_TYPE: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    AcpiLibrary.ARGUMENT_TYPE UNKNOWN = 65535 : Public, Static, Literal, HasDefault
+    AcpiLibrary.ARGUMENT_TYPE INT = 0 : Public, Static, Literal, HasDefault
+    AcpiLibrary.ARGUMENT_TYPE STRING = 1 : Public, Static, Literal, HasDefault
+    AcpiLibrary.ARGUMENT_TYPE BUFFER = 2 : Public, Static, Literal, HasDefault
+    AcpiLibrary.ARGUMENT_TYPE PACKAGE = 3 : Public, Static, Literal, HasDefault

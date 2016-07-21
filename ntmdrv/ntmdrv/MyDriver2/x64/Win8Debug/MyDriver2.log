@@ -1,0 +1,16 @@
+﻿  Building 'ntmdrv' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Performing Custom Build Tools
+   Assembling: asmLib.asm
+  Microsoft (R) Macro Assembler (x64) Version 14.00.24210.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  EC.cpp
+  ntmdrv.cpp
+  正在生成代码...
+  MyDriver2.vcxproj -> C:\Users\boyce_hong\Desktop\AcpiTool-src-104\ntmdrv\x64\Win8Debug\ntmdrv.sys
+  MyDriver2.vcxproj -> C:\Users\boyce_hong\Desktop\AcpiTool-src-104\ntmdrv\x64\Win8Debug\ntmdrv.pdb (Full PDB)
+  Done Adding Additional Store
+  Successfully signed: C:\Users\boyce_hong\Desktop\AcpiTool-src-104\ntmdrv\x64\Win8Debug\ntmdrv.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  

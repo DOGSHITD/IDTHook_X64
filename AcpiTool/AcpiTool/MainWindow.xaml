@@ -1,0 +1,12 @@
+﻿<Window x:Class="AcpiTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AcpiTool 1.0.2" Height="350" Width="525" Closed="Window_Closed_1" MinWidth="525" MinHeight="350">
+    <Grid>
+        <TabControl HorizontalAlignment="Stretch" Margin="5,5,5,5"  VerticalAlignment="Stretch" >
+            <TabItem Header="MethodMonitor" Width="120">
+                <Frame NavigationUIVisibility="Hidden" Source="pack://application:,,,/MethodMonitor.xaml"></Frame>
+            </TabItem>   
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,0 +1,37 @@
+﻿  Building 'ntmdrv' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  ntmdrv.cpp
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(154): error C2220: 警告被视为错误 - 没有生成“object”文件
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(154): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(159): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(162): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+ntmdrv.cpp(23): warning C4100: “pRegistryPath”: 未引用的形参
+ntmdrv.cpp(94): warning C4189: “ulCount”: 局部变量已初始化但不引用
+ntmdrv.cpp(225): warning C4189: “pHookHead”: 局部变量已初始化但不引用
+  RegRoutines.cpp
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(154): error C2220: 警告被视为错误 - 没有生成“object”文件
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(154): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(159): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(162): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+RegRoutines.cpp(128): warning C4189: “ulDisposition”: 局部变量已初始化但不引用
+RegRoutines.cpp(219): warning C4100: “pvContext”: 未引用的形参
+RegRoutines.cpp(401): warning C4267: “=”: 从“size_t”转换到“LONG”，可能丢失数据
+RegRoutines.cpp(425): warning C4311: “类型转换”: 从“HOOKED_DATA *”到“ULONG”的指针截断
+RegRoutines.cpp(425): warning C4302: “类型转换”: 从“HOOKED_DATA *”到“ULONG”截断
+  Routines.cpp
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(154): error C2220: 警告被视为错误 - 没有生成“object”文件
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(154): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(159): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(162): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+Routines.cpp(53): warning C4100: “Irp”: 未引用的形参
+Routines.cpp(53): warning C4100: “fdo”: 未引用的形参
+Routines.cpp(231): warning C4189: “ulReturnValue”: 局部变量已初始化但不引用
+Routines.cpp(359): warning C4100: “DeviceObject”: 未引用的形参
+Routines.cpp(376): warning C4238: 使用了非标准扩展: 类 rvalue 用作了 lvalue
+  SupportRoutines.cpp
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(154): error C2220: 警告被视为错误 - 没有生成“object”文件
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(154): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(159): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+c:\users\boyce_hong\desktop\acpitool-src-104\ntmdrv\mydriver2\ntmdrv.h(162): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+SupportRoutines.cpp(106): warning C4189: “stack”: 局部变量已初始化但不引用
+SupportRoutines.cpp(170): warning C4189: “dwIoControlCode”: 局部变量已初始化但不引用
+  正在生成代码...

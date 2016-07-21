@@ -1,0 +1,31 @@
+﻿生成启动时间为 2016/6/27 上午 11:08:30。
+     1>项目“C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiLibrary\AcpiLibrary\AcpiLibrary.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\AcpiLibrary.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /errorReport:prompt /clr:nostdlib Stdafx.cpp
+         Stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\AcpiLibrary.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /errorReport:prompt /clr:nostdlib AcpiFilterControl.cpp AcpiLibrary.cpp AssemblyInfo.cpp DriverManager.cpp
+         AcpiFilterControl.cpp
+     1>c:\users\boyce_hong\desktop\acpitool-src-104\acpilibrary\acpilibrary\DriverManager.h(16): warning C4441: 忽略“__cdecl ”的调用约定；改用“__clrcall ”
+     1>c:\users\boyce_hong\desktop\acpitool-src-104\acpilibrary\acpilibrary\DriverManager.h(17): warning C4441: 忽略“__cdecl ”的调用约定；改用“__clrcall ”
+         AcpiLibrary.cpp
+         AssemblyInfo.cpp
+         DriverManager.cpp
+     1>c:\users\boyce_hong\desktop\acpitool-src-104\acpilibrary\acpilibrary\DriverManager.h(16): warning C4441: 忽略“__cdecl ”的调用约定；改用“__clrcall ”
+     1>c:\users\boyce_hong\desktop\acpitool-src-104\acpilibrary\acpilibrary\DriverManager.h(17): warning C4441: 忽略“__cdecl ”的调用约定；改用“__clrcall ”
+     1>DriverManager.cpp(90): warning C4441: 忽略“__cdecl ”的调用约定；改用“__clrcall ”
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /TP /errorReport:prompt "C:\Users\boyce_hong\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiLibrary\x64\Debug\AcpiLibrary.dll" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiLibrary\x64\Debug\AcpiLibrary.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 /DLL x64\Debug\AcpiFilterControl.obj
+         x64\Debug\AcpiLibrary.obj
+         x64\Debug\AssemblyInfo.obj
+         x64\Debug\DriverManager.obj
+         x64\Debug\Stdafx.obj
+         "x64\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         AcpiLibrary.vcxproj -> C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiLibrary\x64\Debug\AcpiLibrary.dll
+     1>已完成生成项目“C:\Users\boyce_hong\Desktop\AcpiTool-src-104\AcpiLibrary\AcpiLibrary\AcpiLibrary.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.88

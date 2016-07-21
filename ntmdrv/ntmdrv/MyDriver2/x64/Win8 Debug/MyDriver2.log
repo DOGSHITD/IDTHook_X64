@@ -1,0 +1,8 @@
+﻿生成启动时间为 2016/7/1 下午 02:41:21。
+     1>项目“C:\Users\boyce_hong\Desktop\AcpiTool-src-104\ntmdrv\MyDriver2\MyDriver2.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets(44,5): error MSB8020: The builds tools for WindowsKernelModeDriver10.0 (Platform Toolset = 'WindowsKernelModeDriver10.0') cannot be found. To build using the WindowsKernelModeDriver10.0 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install WindowsKernelModeDriver10.0 to build using the WindowsKernelModeDriver10.0 build tools.
+     1>已完成生成项目“C:\Users\boyce_hong\Desktop\AcpiTool-src-104\ntmdrv\MyDriver2\MyDriver2.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.35

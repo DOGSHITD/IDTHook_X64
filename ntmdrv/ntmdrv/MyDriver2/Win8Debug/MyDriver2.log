@@ -1,0 +1,9 @@
+﻿  Building 'ntmdrv' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  ntmdrv.cpp
+  RegRoutines.cpp
+  Routines.cpp
+  SupportRoutines.cpp
+  正在生成代码...
+  MyDriver2.vcxproj -> C:\Users\boyce_hong\Desktop\AcpiTool-src-104\ntmdrv\Win8Debug\ntmdrv.sys
+  Inf2Cat task was skipped as there were no inf files to process
+  
